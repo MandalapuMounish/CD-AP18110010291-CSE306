@@ -12,9 +12,9 @@ main ()
       switch (state)
 	{
 	case 0:
-	  if (curr == 'a')
+	  if (curr == 'x')
 	    state = 1;
-	  else if (curr == 'b')
+	  else if (curr == 'y')
 	    state = 3;
 	  else
 	    {
@@ -23,9 +23,9 @@ main ()
 	    }
 	  break;
 	case 1:
-	  if (curr == 'a')
+	  if (curr == 'x')
 	    state = 2;
-	  else if (curr == 'b')
+	  else if (curr == 'y')
 	    state = 3;
 	  else
 	    {
@@ -34,9 +34,9 @@ main ()
 	    }
 	  break;
 	case 2:
-	  if (curr == 'a')
+	  if (curr == 'x')
 	    state = 2;
-	  else if (curr == 'b')
+	  else if (curr == 'y')
 	    state = 3;
 	  else
 	    {
@@ -45,9 +45,9 @@ main ()
 	    }
 	  break;
 	case 3:
-	  if (curr == 'a')
+	  if (curr == 'x')
 	    state = 1;
-	  else if (curr == 'b')
+	  else if (curr == 'y')
 	    state = 4;
 	  else
 	    {
@@ -56,9 +56,9 @@ main ()
 	    }
 	  break;
 	case 4:
-	  if (curr == 'a')
+	  if (curr == 'x')
 	    state = 1;
-	  else if (curr == 'b')
+	  else if (curr == 'y')
 	    state = 4;
 	  else
 	    {
